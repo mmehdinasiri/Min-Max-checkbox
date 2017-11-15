@@ -1,6 +1,11 @@
-# Min-Max-checkboxuse 
+# Min-Max-checkbox use 
 
 
+# Prerequisites
+    jquery.js
+
+
+# use
 
 "data-chackbox-group='anyName'" ---> set name to checkbox wrapper
 
