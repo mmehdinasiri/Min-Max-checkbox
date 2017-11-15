@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Min Max checkbox</title>
+
+    
+    <style>
+        body{
+            margin: 20px auto;
+            text-align: center;
+        }
+        .from{
+            display: inline-block;
+            background: #CCC;
+            border: 1px solid #ddd;
+            padding: 10px;
+            vertical-align: top;
+        }
+        
+    </style>
+
+
+
+    <script src="./jquery.js"></script>
+    <script src="./dist/min-max-chackbox.js"></script>></script>
+</head>
+<body>
+
+<form action="" class="from">
+    <div  data-chackbox-min = "2" data-chackbox-max = "4" data-chackbox-group="checkbox-A">
+        <h4 class="checkbox__header">حدافل 2 نفر را انتخاب کنید</h4>
+        <div class="checkbox__item">
+            <label for="">چکباکس 1</label>
+            <input type="checkbox" class="checkbox">
+        </div>
+        <div class="checkbox__item">
+            <label for="">چکباکس 2</label>
+            <input type="checkbox" class="checkbox" checked >
+        </div>
+        <div class="checkbox__item">
+            <label for="">3 چکباکس</label>
+            <input type="checkbox" class="checkbox">
+        </div>
+        <div class="checkbox__item">
+            <label for="">چکباکس 4</label>
+            <input type="checkbox" class="checkbox"> 
+        </div>
+        <div class="checkbox__item">
+            <label for="">5 چکباکس</label>
+            <input type="checkbox" class="checkbox">
+        </div>
+        <div class="checkbox__item">
+            <label for="">چکباکس 6</label>
+            <input type="checkbox" class="checkbox" checked >
+        </div>
+    </div>
+    <input type="submit" value="انتحاب کنید" data-chackbox-btn="checkbox-A" disabled>
+</form>
+
+
+
+
+<form action="" class="from">
+    <div class="checkbox__Container" data-chackbox-min = "3" data-chackbox-max = "5" data-chackbox-group="checkbox-B">
+        <h4 class="checkbox__header">حدافل 3 نفر را انتخاب کنید</h4>
+        <div class="checkbox__item">
+            <label for="">چکباکس A</label>
+            <input type="checkbox" class="checkbox">
+        </div>
+        <div class="checkbox__item">
+            <label for="">چکباکس B</label>
+            <input type="checkbox" class="checkbox">
+        </div>
+        <div class="checkbox__item">
+            <label for="">چکباکس C</label>
+            <input type="checkbox" class="checkbox">
+        </div>
+        <div class="checkbox__item">
+            <label for="">چکباکس D</label>
+            <input type="checkbox" class="checkbox" checked >
+        </div>
+        <div class="checkbox__item">
+            <label for="">چکباکس F</label>
+            <input type="checkbox" class="checkbox">
+        </div>
+        <div class="checkbox__item">
+            <label for="">چکباکس G</label>
+            <input type="checkbox" class="checkbox">
+        </div>
+        <div class="checkbox__item">
+            <label for="">چکباکس H</label>
+            <input type="checkbox" class="checkbox">
+        </div>
+        <div class="checkbox__item">
+            <label for="">چکباکس I</label>
+            <input type="checkbox" class="checkbox">
+        </div>
+    </div>
+    <input type="submit" value="انتحاب کنید" data-chackbox-btn="checkbox-B" disabled>
+</form>  
+
+<form action="" class="from">
+    <div class="checkbox__Container" data-chackbox-group="checkbox-c">
+        <h4 class="checkbox__header">بدون  محدودیت</h4>
+
+        <div class="checkbox__item">
+            <label for="">چکباکس A</label>
+            <input type="checkbox" class="checkbox">
+        </div>
+        <div class="checkbox__item">
+            <label for="">چکباکس A</label>
+            <input type="checkbox" class="checkbox">
+        </div>
+        
+   
+    <input type="submit" value="انتحاب کنید" data-chackbox-btn="checkbox-c" disabled>
+</form> 
+</body>
+</html>
